@@ -1,0 +1,19 @@
+.background-stripes-container {
+  position: absolute;
+  height: 25vh;
+  margin-top: 8.5vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: -1;
+  align-items: left;
+  justify-content: center;
+}
+
+.background-stripe {
+  height: 3rem;
+  width: 80%;
+  background-color: rgb(197, 252, 255);
+  opacity: 0.8;
+}
