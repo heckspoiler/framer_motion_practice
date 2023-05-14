@@ -1,11 +1,13 @@
-.main-title-section {
-  background-color: rgb(174, 37, 37);
+.cover-title-section-title {
+  position: absolute;
 }
 
 .space {
   font-size: 18rem;
   letter-spacing: 7rem;
   font-weight: 800;
+  margin-top: 15rem;
+  z-index: -2;
 }
 
 .empty {
@@ -13,4 +15,15 @@
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
   color: transparent;
+}
+
+.space {
+}
+
+.motion {
+  margin-top: 30rem;
+}
+
+.empty-p:hover {
+  color: white;
 }
