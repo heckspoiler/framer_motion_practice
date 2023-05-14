@@ -3,8 +3,14 @@
   src: url("./fonts/Aqem-Regular.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Anti-Design";
+  src: url("./fonts/anti-design-endeavour.otf") format("opentype");
+}
+
 :root {
   --font-weird-main-title: "Aquem-Regular", Arial, sans-serif;
+  --font-weird-main-title-second: "Anti-Design", Arial, sans-serif;
 }
 
 * {
@@ -31,5 +37,5 @@ h1 {
   font-size: 20rem;
   font-weight: 400;
   margin-bottom: 1rem;
-  font-family: var(--font-weird-main-title);
+  font-family: var(--font-weird-main-title-second);
 }
