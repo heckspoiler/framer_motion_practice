@@ -17,11 +17,10 @@
   color: transparent;
 }
 
-.space {
-}
-
 .motion {
   margin-top: 30rem;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .empty-p:hover {
