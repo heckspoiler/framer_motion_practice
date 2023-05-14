@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Aquem-Regular";
+  src: url("./fonts/Aqem-Regular.otf") format("opentype");
+}
+
+:root {
+  --font-weird-main-title: "Aquem-Regular", Arial, sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +27,9 @@ code {
     monospace;
 }
 
-@font-face {
-  font-family: "YourFont";
-  src: url("../assets/fonts/YourFont.ttf") format("truetype");
-  /* Add other font properties as needed */
+h1 {
+  font-size: 20rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  font-family: var(--font-weird-main-title);
 }
