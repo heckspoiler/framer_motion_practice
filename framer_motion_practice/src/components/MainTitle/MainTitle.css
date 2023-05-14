@@ -1,0 +1,16 @@
+.main-title-section {
+  background-color: rgb(174, 37, 37);
+}
+
+.space {
+  font-size: 18rem;
+  letter-spacing: 7rem;
+  font-weight: 800;
+}
+
+.empty {
+  letter-spacing: -10px;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  color: transparent;
+}
