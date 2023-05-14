@@ -14,7 +14,7 @@
   letter-spacing: -10px;
   -webkit-text-stroke-color: black;
   -webkit-text-stroke-width: 1px;
-  color: transparent;
+  color: var(--background-red);
 }
 
 .motion {
