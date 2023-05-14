@@ -8,9 +8,15 @@
   src: url("./fonts/anti-design-endeavour.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "Archivo";
+  src: url("./fonts/archivo.ttf") format("truetype");
+}
+
 :root {
   --font-weird-main-title: "Aquem-Regular", Arial, sans-serif;
   --font-weird-main-title-second: "Anti-Design", Arial, sans-serif;
+  --font-paragraph: "Archivo", Arial, sans-serif;
   --background-red: rgb(174, 37, 37);
 }
 

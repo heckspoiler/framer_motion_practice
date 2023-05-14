@@ -1,0 +1,10 @@
+.svg-container {
+  font-size: 2rem;
+  font-weight: 400;
+
+  margin-left: 45rem;
+  margin-top: -10rem;
+  font-family: var(--font-paragraph);
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
